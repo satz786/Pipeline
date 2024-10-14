@@ -1,9 +1,9 @@
 pipeline {
     agent any
 
-    triggers {
-        cron('H/15 * * * *')
-    }
+  //  triggers {
+       // cron('H/15 * * * *')
+    //}
 
 
       parameters {
