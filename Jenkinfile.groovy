@@ -8,6 +8,11 @@ node {
                 
             
         }
+
+    stage('Checkout')
+    {
+        checkout scmGit(branches: [[name: '*/main']], extensions: [], userRemoteConfigs: [[url: 'https://github.com/satz786/TestLeafV1.git']])
+    }
         stage('Build_OwnProject')
         {
         
