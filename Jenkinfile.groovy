@@ -8,7 +8,7 @@ node {
                 
             
         }
-        stage('TestLeaf_Git')
+        stage('Build_OwnProject')
         {
         
         build 'TestLeaf_Git'
