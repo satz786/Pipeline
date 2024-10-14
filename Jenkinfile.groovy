@@ -19,7 +19,7 @@ node {
         stage('Build_OwnProject')
         {
         
-        build 'TestLeaf_Git'
+        build 'OwnProject'
           echo "Own project";
             
         }
