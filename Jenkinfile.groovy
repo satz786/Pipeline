@@ -19,6 +19,7 @@ pipeline {
              steps {
                   echo "Building branch: ${params.BRANCH_NAME}"
                 echo "EIB completed";
+                  echo "Selected environment: ${params.ENVIRONMENT}"
              } 
             
         }
