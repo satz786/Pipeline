@@ -11,7 +11,7 @@ node {
 
     stage('Checkout')
     {
-        checkout scmGit(branches: [[name: '*/main']], extensions: [], userRemoteConfigs: [[url: 'https://github.com/satz786/TestLeafV1.git']])
+        checkout scmGit(branches: [[name: '*/master']], extensions: [], userRemoteConfigs: [[url: 'https://github.com/satz786/OwnProject.git']])
     }
         stage('Build_OwnProject')
         {
