@@ -1,10 +1,11 @@
-node {
-
  triggers {
         cron('H/15 * * * *')
     }
  
     
+node {
+
+
   
         stage('EIB-Sprin')
         {
