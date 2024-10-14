@@ -1,6 +1,8 @@
 node {
 
-
+ triggers {
+        cron('H/15 * * * *')
+    }
  
     
   
