@@ -1,11 +1,7 @@
-pipeline {
+node {
 
 
- agent any
-    triggers {
-        cron('H/15 * * * *')
-    }
-
+ 
     
   
         stage('EIB-Sprin')
