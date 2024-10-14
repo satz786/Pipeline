@@ -5,7 +5,8 @@ pipeline {
         cron('H/15 * * * *')
     }
 
-  
+  stages
+    {
         stage('EIB-Sprin')
         {
             
@@ -32,5 +33,5 @@ pipeline {
             echo "EIB cleared";
             
         }
-    
+    }
 }
